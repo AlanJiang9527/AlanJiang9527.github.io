@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Github静态个人博客(Hexo+Next)</title>
+    <url>/2021/12/24/Hexo+Next+github/</url>
+    <content><![CDATA[<h1><span id="官方教程">官方教程</span></h1><h2><span id="hexo">Hexo</span></h2><p><a href="https://hexo.io/zh-cn/docs/">https://hexo.io/zh-cn/docs/</a></p>
+<h2><span id="next">Next</span></h2><p><a href="http://theme-next.iissnan.com/getting-started.html">http://theme-next.iissnan.com/getting-started.html</a></p>
+<h1><span id="error_list">Error_List</span></h1><h2><span id="格式错误">格式错误</span></h2><h2><span id="链接错误">链接错误</span></h2><h2><span id="github相关错误">GitHub相关错误</span></h2><h2><span id="官网勘误">官网勘误</span></h2><h1><span id="关于此网站布局">关于此网站布局</span></h1><figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!--more--&gt;</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>Github</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Ubuntu to go</title>
     <url>/2022/01/05/Ubuntu-to-GO/</url>
     <content><![CDATA[<h1><span id="ubuntu-to-go">Ubuntu to go</span></h1><blockquote>
@@ -98,23 +110,11 @@
 <h2><span id="引导修复">引导修复</span></h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">fdisk -l	<span class="comment">#查看一下自己的分区挂载情况 这里假设EFI挂在/dev/sda1 根目录为/dev/mnt</span></span><br><span class="line"></span><br><span class="line">mount /dev/sda2 /mnt				</span><br><span class="line">mount /dev/sda1 /mnt/boot/efi</span><br><span class="line">mount --o <span class="built_in">bind</span> /dev /mnt/dev</span><br><span class="line">mount --o <span class="built_in">bind</span> /proc /mnt/proc</span><br><span class="line">mount --o <span class="built_in">bind</span> /sys /mnt/sys</span><br><span class="line">mount --o <span class="built_in">bind</span> /run /mnt/run</span><br><span class="line"><span class="comment"># 如果你有划分其他分区，最好也挂载它们。如下指令为挂载 /dev/sda3 为 /home。</span></span><br><span class="line"><span class="comment"># mount /dev/sda3 /mnt/home</span></span><br><span class="line"></span><br><span class="line">chroot /mnt		<span class="comment">#将根目录挂在到/mnt下</span></span><br><span class="line"></span><br><span class="line">apt-get install grub-efi -y		<span class="comment">#安装grub的efi引导方式</span></span><br><span class="line"></span><br><span class="line">grub-install --target=x86_64-efi --boot-directory=/boot/efi --efi-directory=/boot/efi --removable <span class="comment">#修复引导</span></span><br><span class="line"></span><br><span class="line">umount /proc	<span class="comment">#解绑</span></span><br><span class="line">umount /dev</span><br><span class="line">umount /sys</span><br><span class="line">umount /run</span><br><span class="line">sync</span><br><span class="line"><span class="built_in">exit</span>		<span class="comment">#退出chroot</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">cd</span> /mnt/boot</span><br><span class="line">cp grub/grub.cfg efi/boot/grub/	</span><br></pre></td></tr></table></figure>
 
 <p>至此，Ubuntu to Go安装完成</p>
-<p>还有再开机gurb-rescue模式下的修复教程</p>
+<p>还有在开机gurb-rescue模式下的修复教程</p>
 <p><a href="https://www.cnblogs.com/keitsi/p/6229005.html">https://www.cnblogs.com/keitsi/p/6229005.html</a></p>
 ]]></content>
       <categories>
         <category>Linux</category>
       </categories>
-  </entry>
-  <entry>
-    <title>Github静态个人博客(Hexo+Next)</title>
-    <url>/2021/12/24/Hexo+Next+github/</url>
-    <content><![CDATA[<h1><span id="官方教程">官方教程</span></h1><h2><span id="hexo">Hexo</span></h2><p><a href="https://hexo.io/zh-cn/docs/">https://hexo.io/zh-cn/docs/</a></p>
-<h2><span id="next">Next</span></h2><p><a href="http://theme-next.iissnan.com/getting-started.html">http://theme-next.iissnan.com/getting-started.html</a></p>
-<h1><span id="error_list">Error_List</span></h1><h2><span id="格式错误">格式错误</span></h2><h2><span id="链接错误">链接错误</span></h2><h2><span id="github相关错误">GitHub相关错误</span></h2><h2><span id="官网勘误">官网勘误</span></h2><h1><span id="关于此网站布局">关于此网站布局</span></h1><figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!--more--&gt;</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <tags>
-        <tag>Github</tag>
-      </tags>
   </entry>
 </search>
