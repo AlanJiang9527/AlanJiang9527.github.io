@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Github静态个人博客(Hexo+Next)</title>
+    <url>/2021/12/24/Hexo+Next+github/</url>
+    <content><![CDATA[<h1><span id="guan-fang-jiao-cheng">官方教程</span><a href="#guan-fang-jiao-cheng" class="header-anchor">#</a></h1><h2><span id="hexo">Hexo</span><a href="#hexo" class="header-anchor">#</a></h2><p><a href="https://hexo.io/zh-cn/docs/">https://hexo.io/zh-cn/docs/</a></p>
+<h2><span id="next">Next</span><a href="#next" class="header-anchor">#</a></h2><p><a href="http://theme-next.iissnan.com/getting-started.html">http://theme-next.iissnan.com/getting-started.html</a></p>
+<span id="more"></span>
+
+<h1><span id="erro-list">Erro_List</span><a href="#erro-list" class="header-anchor">#</a></h1><h2><span id="ge-shi-cuo-wu">格式错误</span><a href="#ge-shi-cuo-wu" class="header-anchor">#</a></h2><h2><span id="lian-jie-cuo-wu">链接错误</span><a href="#lian-jie-cuo-wu" class="header-anchor">#</a></h2><h2><span id="github-xiang-guan-cuo-wu">GitHub相关错误</span><a href="#github-xiang-guan-cuo-wu" class="header-anchor">#</a></h2><h2><span id="guan-wang-kan-wu">官网勘误</span><a href="#guan-wang-kan-wu" class="header-anchor">#</a></h2><h1><span id="guan-yu-ci-wang-zhan-bu-ju">关于此网站布局</span><a href="#guan-yu-ci-wang-zhan-bu-ju" class="header-anchor">#</a></h1><!--more-->]]></content>
+      <tags>
+        <tag>Github</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Ubuntu to go</title>
     <url>/2022/01/05/Ubuntu-to-GO/</url>
     <content><![CDATA[<h1><span id="ubuntu-to-go">Ubuntu to go</span><a href="#ubuntu-to-go" class="header-anchor">#</a></h1><blockquote>
@@ -9,18 +21,19 @@
 <hr>
 <!--toc-->
 
+
+
 <h2><span id="zhun-bei-gong-zuo">准备工作</span><a href="#zhun-bei-gong-zuo" class="header-anchor">#</a></h2><ul>
-<li><p><strong>移动硬盘/U 盘</strong> （根据自己和系统的需求，Ubuntu20至少20G以上 推荐64G以上）</p>
-</li>
-<li><p><strong>烧录系统的U盘</strong> （8G以上）</p>
-</li>
-<li><p><strong>电脑一台</strong></p>
-</li>
-<li><p><a href="www.diskgenius.cn"><strong>Diskgenus</strong></a> </p>
-</li>
-<li><p><a href="https://rufus.ie/"><strong>rufus</strong></a> 推荐烧录工具</p>
-</li>
+<li><input disabled type="checkbox"> <strong>移动硬盘/U 盘</strong> （根据自己和系统的需求，Ubuntu20至少20G以上 推荐64G以上）</li>
+<li><input disabled type="checkbox"> <strong>烧录系统的U盘</strong> （8G以上）</li>
+<li><input disabled type="checkbox"> <strong>电脑一台</strong></li>
+<li><input disabled type="checkbox"> <a href="www.diskgenius.cn"><strong>Diskgenus</strong></a> </li>
+<li><input disabled type="checkbox"> <a href="https://rufus.ie/"><strong>rufus</strong></a> 推荐烧录工具</li>
 </ul>
+<span id="more"></span>
+
+
+
 <h2><span id="xie-zai-qian-mian">写在前面</span><a href="#xie-zai-qian-mian" class="header-anchor">#</a></h2><ol>
 <li><p>这里采用U盘烧录，如果没有U盘，还有使用虚拟机安装的教程<a href="https://www.littleqiu.net/ubuntu-to-go/">https://www.littleqiu.net/ubuntu-to-go/</a></p>
 </li>
@@ -101,21 +114,9 @@
 <p>至此，Ubuntu to Go安装完成</p>
 <p>还有在开机gurb-rescue模式下的修复教程</p>
 <p><a href="https://www.cnblogs.com/keitsi/p/6229005.html">https://www.cnblogs.com/keitsi/p/6229005.html</a></p>
-<span id="more"></span>
-
 ]]></content>
       <categories>
         <category>Linux</category>
       </categories>
-  </entry>
-  <entry>
-    <title>Github静态个人博客(Hexo+Next)</title>
-    <url>/2021/12/24/Hexo+Next+github/</url>
-    <content><![CDATA[<h1><span id="guan-fang-jiao-cheng">官方教程</span><a href="#guan-fang-jiao-cheng" class="header-anchor">#</a></h1><h2><span id="hexo">Hexo</span><a href="#hexo" class="header-anchor">#</a></h2><p><a href="https://hexo.io/zh-cn/docs/">https://hexo.io/zh-cn/docs/</a></p>
-<h2><span id="next">Next</span><a href="#next" class="header-anchor">#</a></h2><p><a href="http://theme-next.iissnan.com/getting-started.html">http://theme-next.iissnan.com/getting-started.html</a></p>
-<h1><span id="error-list">Error_List</span><a href="#error-list" class="header-anchor">#</a></h1><h2><span id="ge-shi-cuo-wu">格式错误</span><a href="#ge-shi-cuo-wu" class="header-anchor">#</a></h2><h2><span id="lian-jie-cuo-wu">链接错误</span><a href="#lian-jie-cuo-wu" class="header-anchor">#</a></h2><h2><span id="github-xiang-guan-cuo-wu">GitHub相关错误</span><a href="#github-xiang-guan-cuo-wu" class="header-anchor">#</a></h2><h2><span id="guan-wang-kan-wu">官网勘误</span><a href="#guan-wang-kan-wu" class="header-anchor">#</a></h2><h1><span id="guan-yu-ci-wang-zhan-bu-ju">关于此网站布局</span><a href="#guan-yu-ci-wang-zhan-bu-ju" class="header-anchor">#</a></h1><span id="more"></span>]]></content>
-      <tags>
-        <tag>Github</tag>
-      </tags>
   </entry>
 </search>
