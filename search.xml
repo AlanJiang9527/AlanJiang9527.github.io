@@ -5,9 +5,10 @@
     <url>/2022/01/05/Ubuntu-to-GO/</url>
     <content><![CDATA[<h1><span id="ubuntu-to-go">Ubuntu to go</span><a href="#ubuntu-to-go" class="header-anchor">#</a></h1><blockquote>
 <p>​                                                                                                随身携带，即插即用的Ubuntu 系统</p>
-<p>[TOC]</p>
 </blockquote>
 <hr>
+<!--toc-->
+
 <h2><span id="zhun-bei-gong-zuo">准备工作</span><a href="#zhun-bei-gong-zuo" class="header-anchor">#</a></h2><ul>
 <li><p><strong>移动硬盘/U 盘</strong> （根据自己和系统的需求，Ubuntu20至少20G以上 推荐64G以上）</p>
 </li>
