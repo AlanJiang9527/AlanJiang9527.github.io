@@ -1,28 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Github静态个人博客(Hexo+Next)</title>
-    <url>/2021/12/24/Hexo+Next+github/</url>
-    <content><![CDATA[<h1><span id="官方教程">官方教程</span></h1><h2><span id="hexo">Hexo</span></h2><p><a href="https://hexo.io/zh-cn/docs/">https://hexo.io/zh-cn/docs/</a></p>
-<h2><span id="next">Next</span></h2><p><a href="http://theme-next.iissnan.com/getting-started.html">http://theme-next.iissnan.com/getting-started.html</a></p>
-<span id="more"></span>
-
-<h1><span id="erro_list">Erro_List</span></h1><h2><span id="格式错误">格式错误</span></h2><h2><span id="链接错误">链接错误</span></h2><h2><span id="github相关错误">GitHub相关错误</span></h2><h2><span id="官网勘误">官网勘误</span></h2><h1><span id="关于此网站布局">关于此网站布局</span></h1><!--more-->]]></content>
-      <tags>
-        <tag>Github</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Ubuntu to go</title>
     <url>/2022/01/05/Ubuntu-to-GO/</url>
-    <content><![CDATA[<h1><span id="ubuntu-to-go">Ubuntu to go</span></h1><blockquote>
+    <content><![CDATA[<h2><span id="ubuntu-to-go">Ubuntu to go</span></h2><blockquote>
 <p>​                                                                                                随身携带，即插即用的Ubuntu 系统</p>
 </blockquote>
 <hr>
-<!--toc-->
-
-
-
 <h2><span id="准备工作">准备工作</span></h2><ul>
 <li><input disabled type="checkbox"> <strong>移动硬盘/U 盘</strong> （根据自己和系统的需求，Ubuntu20至少20G以上 推荐64G以上）</li>
 <li><input disabled type="checkbox"> <strong>烧录系统的U盘</strong> （8G以上）</li>
@@ -118,5 +102,17 @@
       <categories>
         <category>Linux</category>
       </categories>
+  </entry>
+  <entry>
+    <title>Github静态个人博客(Hexo+Next)</title>
+    <url>/2021/12/24/Hexo+Next+github/</url>
+    <content><![CDATA[<h1><span id="官方教程">官方教程</span></h1><h2><span id="hexo">Hexo</span></h2><p><a href="https://hexo.io/zh-cn/docs/">https://hexo.io/zh-cn/docs/</a></p>
+<h2><span id="next">Next</span></h2><p><a href="http://theme-next.iissnan.com/getting-started.html">http://theme-next.iissnan.com/getting-started.html</a></p>
+<span id="more"></span>
+
+<h1><span id="erro_list">Erro_List</span></h1><h2><span id="格式错误">格式错误</span></h2><h2><span id="链接错误">链接错误</span></h2><h2><span id="github相关错误">GitHub相关错误</span></h2><h2><span id="官网勘误">官网勘误</span></h2><h1><span id="关于此网站布局">关于此网站布局</span></h1><!--more-->]]></content>
+      <tags>
+        <tag>Github</tag>
+      </tags>
   </entry>
 </search>
